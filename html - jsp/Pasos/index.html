@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<html>
+<head>
+  <title>Contrato Digital</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Contrato Digital">
+  <link rel="stylesheet" type="text/css" href="css/contrato-digital.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+<link href='https://fonts.googleapis.com/css?family=Titillium+Web:400,700' rel='stylesheet' type='text/css'>
+<link rel="shortcut icon" href="https://www.multicaja.cl/personas/img/favicon.ico">
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+
+</head>
+<body>
+<header class="container padd-cero">
+<nav class="navbar navbar-default">
+  <div class="container  padd-cero">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle segundo-menu-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+      </button>
+      
+    </div>
+    <div>
+      <div class="collapse navbar-collapse  padd-cero" id="myNavbar" style="height: 1px;" aria-expanded="false">
+        
+      </div>
+    </div>
+  </div>
+</nav>    
+<div class="logo"><img src="images/logo.svg"></div>
+</header>
+
+      <div class="container alerta-msg">
+     
+     <div class="alert alert-info" role="alert">
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+      <p>Hemos enviado la clave dinámica a <strong>tu celular %%numero celular%%</strong></p>
+      </div>
+     
+      <div class="alert alert-danger" role="alert">
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <p><strong>Has superado el número de intentos para ingresar tu clave dinámica.</strong> Hemos bloqueado tu cuenta temporalmente, vuelve a intentar nuevamente más tarde.</p>
+      </div>
+     
+     
+      </div>      
+      
+<section class="info-central container">
+
+      <div class="col-md-12">
+
+          <div class="row bs-wizard" style="border-bottom:0;">
+              
+                <div class="col-xs-4 bs-wizard-step active"><!-- complete -->
+                  <div class="progress"><div class="progress-bar"></div></div>
+                  <div class="bs-wizard-dot">1</div>
+
+                </div>
+                
+                <div class="col-xs-4 bs-wizard-step disabled"><!-- complete -->
+                  <div class="progress"><div class="progress-bar"></div></div>
+                  <div class="bs-wizard-dot">2</div>
+
+                </div>
+                
+                <div class="col-xs-4 bs-wizard-step disabled"><!-- active -->
+                  <div class="progress"><div class="progress-bar"></div></div>
+                  <div class="bs-wizard-dot">3</div>
+ 
+                </div>
+            </div>
+      </div>
+      
+
+      <div class="text-center txt-bajada col-md-12">
+         
+          <h2>Solicitud de incorporación a la red y servicios del Holding Multicaja</h2>
+          
+          <p> Para continuar con el proceso <strong>ingresa la clave dinámica </strong>que hemos enviado vía SMS a tu celular <strong>%%numero celular%%.</strong></p>
+          <div class="row">
+             <form class="claves">
+                            <label class="txt-label-claves">Clave dinámica</label>
+                            <input  placeholder="6 dígitos" type="password" name="pass-actual" class="clve" maxlength="6"><!-- si existe error en contraseña agregar clase "error" a input -->
+                            <span class="error-clave">Clave ingresada no es válida.</span>
+                            <a href="paso2.html"  class="btn-rojo-clave">CONTINUAR</a>
+                            <div><a href="#" class="link-celeste marg-link"><p>No he recibido la clave dinámica [ + ]</p></a></div>
+             </form>
+          </div>
+      </div>
+        
+
+
+</section>
+<footer>
+<div class="container padd-cero">
+  <div class="col-md-7 col-xs-12 padd-cero">
+  Holding Multicaja está compuesto por las empresas relacionadas Multitarjeta, Iswitch, Pincenter y Red Fácil.
+  </div>
+  <div class="col-md-5 col-xs-12 rig padd-cero">
+  Multicaja© - Todos los derechos reservados - <a href="https://www.multicaja.cl/comercios/contacto_multicaja.jsp" target="_blank" class="blnco-txt"><strong>Contacto </strong></a>
+  </div>
+</div>
+</footer>
+
+</body>
+</html>
